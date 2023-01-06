@@ -1,0 +1,56 @@
+body {
+    margin: 0;
+    width: 450px;
+    margin: 0 auto;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+header, section {
+    margin: 0 auto;
+    width: 450px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 3px;
+    border-bottom: 1px solid #222;
+}
+
+.post {
+    margin-bottom: 30px;
+}
+
+.dp {
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+}
+
+.post-dp {
+    margin-right: 10px;
+}
+
+.post-header {
+    margin: 10px 0;
+    display: flex;
+    align-items: center;
+}
+
+.post-image {
+    width: 100%;
+}
+
+.actions-img {
+    width: 35px;
+    margin: 15px 10px 5px 10px;
+}
+
+.like-btn {
+    all: unset;
+}
+
+h3, p {
+    margin: 0;
+    font-size: 16px;
+}
